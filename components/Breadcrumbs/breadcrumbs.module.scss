@@ -1,0 +1,37 @@
+.links {
+  display: flex;
+  align-items: center;
+  margin: 24px 0 32px 0;
+  a {
+    font-weight: normal;
+    font-size: 13px;
+    color: #95adab;
+    margin-right: 2px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    &::after {
+      margin: 0 10px;
+      content: "";
+      background: url("/CaretRight.svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+    &:hover {
+      color: #4c6d6a;
+    }
+    &:last-child {
+      &::after {
+        content: "";
+        background: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .links {
+    display: none;
+  }
+}

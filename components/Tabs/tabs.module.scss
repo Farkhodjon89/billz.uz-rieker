@@ -1,0 +1,110 @@
+.tab {
+  margin-bottom: 64px;
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #051f1c;
+    margin-bottom: 12px;
+  }
+  p {
+    margin-bottom: 26px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #4c6d6a;
+  }
+  .tabHeader {
+    &.mobileCategory {
+      overflow: auto;
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      li {
+        font-size: 14px;
+        padding: 0 7px 14px 7px;
+      }
+    }
+  }
+  .tabHeader {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 36px;
+    li {
+      font-size: 18px;
+      width: 100%;
+      font-weight: 600;
+      color: #575F6A;
+      cursor: pointer;
+      border-bottom: 4px solid #d8eae8;
+      padding-bottom: 26px;
+      svg {
+        margin-bottom: 14px;
+        path {
+          stroke: #575F6A;
+        }
+      }
+      &.active {
+        color: #E40134;
+        border-color: #E40134;
+        svg {
+          path {
+            stroke: #E40134;
+          }
+        }
+      }
+      &:hover {
+        color: #E40134;
+        svg {
+          path {
+            stroke: #E40134;
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .tab {
+    .tabHeader {
+      li {
+        font-size: 11px;
+        &:not(.disable):hover {
+        }
+      }
+    }
+  }
+}
+.sliderPrevArrow {
+  position: absolute;
+  left: -15px;
+  background: #fff;
+  width: 20px;
+  top: 30%;
+  height: 20px;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+.sliderNextArrow {
+  position: absolute;
+  right: -15px;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  top: 30%;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

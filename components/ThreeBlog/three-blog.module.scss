@@ -1,0 +1,46 @@
+.blogStyle {
+  display: flex;
+  align-items: center;
+  margin: 0 -12px 25px;
+}
+.blogStyle > div {
+  width: 33.3%;
+  margin: 0 12px;
+  color: #222222;
+  background: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.blogStyleImg {
+  width: 100%;
+}
+.blogStyleInner {
+  padding: 15px;
+  font-size: 12px;
+  div {
+    &:first-of-type {
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    &:last-of-type {
+      width: 100%;
+      line-height: 24px;
+      margin-bottom: 40px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 10px;
+    }
+  }
+}

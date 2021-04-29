@@ -1,0 +1,13 @@
+.searchResults {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  top: 110px;
+  z-index: 100;
+}
+
+@media (max-width: 700px) {
+  .searchResults {
+    display: none;
+  }
+}

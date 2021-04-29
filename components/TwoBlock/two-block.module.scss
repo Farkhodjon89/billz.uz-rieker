@@ -1,0 +1,28 @@
+.blockStyle {
+  display: flex;
+  margin: 0 -12px 25px;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 465px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 12px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 150px;
+      height: 40px;
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 14px;
+      color: #222222;
+      background: white;
+      margin-bottom: 24px;
+    }
+  }
+}

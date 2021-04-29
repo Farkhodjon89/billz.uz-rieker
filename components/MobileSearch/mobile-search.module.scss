@@ -1,0 +1,47 @@
+.mobileSearch {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  display: block;
+  background: #fff;
+  z-index: 10;
+  padding: 25px 15px;
+  overflow: auto;
+}
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4E5B5A;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.close {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  svg path {
+    stroke: #4E5B5A;
+  }
+}
+.search {
+  position: relative;
+  margin-bottom: 24px;
+  svg path {
+    stroke: #4E5B5A;
+  }
+  label {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+
+    transform: translate(0, -50%);
+  }
+  input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #8C9896;
+    font-size: 15px;
+    color: #4E5B5A;
+  }
+}

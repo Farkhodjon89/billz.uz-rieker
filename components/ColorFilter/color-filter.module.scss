@@ -1,0 +1,107 @@
+.wrapper {
+  margin: 0 -2.5px 20px -2.5px;
+  position: relative;
+  .colors {
+    overflow: hidden;
+    height: 280px;
+    width: 100%;
+  }
+  button {
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4c6d6a;
+    background: #fff;
+    border: 0;
+    align-items: center;
+
+    &::after {
+      content: "";
+      margin-left: 8px;
+      background: url("/CaretDown.svg");
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+  }
+  &.active {
+    .colors {
+      height: 100%;
+    }
+
+    button {
+      &::after {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.inner {
+  height: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 2.5px;
+}
+.colorBlockActive {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+
+  &:hover {
+    .colorActive {
+      border: 0;
+      &::after {
+        content: "";
+        background: url("/XCircle.svg");
+        background-position: center;
+        width: 100%;
+        display: block;
+        background-repeat: no-repeat;
+        height: 100%;
+      }
+    }
+  }
+}
+.colorBlock {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.color {
+  border-radius: 50%;
+  width: 20px;
+  height: 100%;
+  margin-right: 10px;
+}
+.colorActive {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #00554c;
+  width: 20px;
+  height: 100%;
+  &::after {
+    content: "";
+    background: url("/CheckCircle.svg");
+    background-position: center;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+}
+.colorNameActive {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.colorName {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,122 @@
+.wrapper {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  border-radius: 2px;
+  background: white;
+  padding: 0 12px 12px;
+  &.active {
+    display: block;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 2px;
+
+    &:first-of-type {
+      color: white;
+      background: #00554c;
+      margin: 15px 0;
+      &:hover {
+        color: white;
+      }
+    }
+    &:last-of-type {
+      border: 1px solid #00554c;
+    }
+  }
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  height: 70px;
+  button {
+    border: 0;
+    background: #fff;
+  }
+  img {
+    cursor: pointer;
+  }
+}
+.cartItemList {
+  height: 100%;
+  max-height: 190px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.cartItem {
+  display: flex;
+  margin-bottom: 20px;
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+.img {
+  width: 55px;
+  height: 80px;
+  object-fit: cover;
+}
+.cartItemListInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin-left: 12px;
+  font-size: 13px;
+}
+.name {
+  font-weight: 500;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.overallPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  height: 50px;
+  font-size: 15px;
+  border-top: 1px solid #eeeeee;
+  span {
+    font-weight: normal;
+  }
+}
+.shipping {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-size: 13px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  img {
+    margin-right: 10px;
+  }
+}
+.empty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .wrapper {
+    top: 70px;
+    width: 270px;
+  }
+}

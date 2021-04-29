@@ -1,0 +1,148 @@
+.contacts,
+.mobileContacts {
+  .left {
+    width: 80%;
+    .list {
+      list-style: none;
+      padding: 0;
+      .item {
+        &.active {
+          border-color: #027769;
+          background: #f8f9f9;
+          .phone svg,
+          svg {
+            path {
+              stroke: #027769;
+            }
+          }
+          .title {
+            color: #027769;
+          }
+        }
+
+        color: #1c272f;
+        margin-bottom: 9px;
+        border: 1px solid #8c9896;
+        padding: 32px 26px;
+        //margin-bottom: 30px;
+        .title {
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-weight: 500;
+          font-size: 20px;
+
+          margin-bottom: 30px;
+          img {
+            width: 20%;
+          }
+        }
+        .phone {
+          margin-bottom: 30px;
+          a {
+            display: flex;
+            align-items: center;
+            font-weight: normal;
+            font-size: 14px;
+            text-decoration: none;
+            &:hover {
+              color: #1c272f;
+            }
+          }
+          svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 11px;
+            path {
+              stroke: #4e5b5a;
+            }
+          }
+        }
+        .address {
+          margin-bottom: 30px;
+          font-weight: 400;
+          font-size: 14px;
+          svg {
+            margin-right: 11px;
+          }
+        }
+        .social {
+          .list {
+            display: flex;
+            .item {
+              padding: 0;
+              border: 0;
+              margin-right: 20px;
+              svg {
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.sliderPrevArrow {
+  position: absolute;
+  z-index: 999;
+  left: -10px;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 42px);
+  svg {
+    width: 36px;
+    height: 36px;
+  }
+}
+.sliderNextArrow {
+  position: absolute;
+  right: -10px;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 42px);
+  z-index: 999;
+  svg {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.right {
+  iframe {
+    width: 100%;
+    height: 666px;
+    border: 0;
+  }
+}
+
+.mobileContacts {
+  display: none;
+  .left {
+    width: 100%;
+    .list {
+      .item {
+        height: 300px;
+      }
+    }
+  }
+  .right {
+    iframe {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .mobileContacts {
+    display: block;
+  }
+  .contacts {
+    display: none;
+  }
+}

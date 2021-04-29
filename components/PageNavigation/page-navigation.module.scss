@@ -1,0 +1,50 @@
+.LeftNavigation {
+  margin-top: 66px;
+  margin-bottom: 200px;
+  .list {
+    padding: 0;
+    list-style: none;
+    .item {
+      color: #4e5b5a;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 26px;
+      a {
+        display: flex;
+        justify-content: space-between;
+      }
+      span {
+        svg {
+          display: none;
+          transform: rotate(180deg);
+        }
+      }
+      &.active {
+        color: #027769;
+      }
+      a:hover {
+        text-decoration: none;
+        color: #4e5b5a;
+      }
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .LeftNavigation {
+    margin-top: 20px;
+    display: none;
+    &.activeMobile {
+      display: block;
+    }
+    .list {
+      .item {
+        span {
+          svg {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

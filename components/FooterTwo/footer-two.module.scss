@@ -1,0 +1,122 @@
+.footer {
+  color: #fff;
+  background: #00554c;
+  position: relative;
+  .menu {
+    padding: 56px 0;
+    .socialList {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      .item {
+        margin-right: 20px;
+        a svg {
+          width: 24px;
+          height: 24px;
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+    .list {
+      padding: 0;
+      list-style: none;
+      font-weight: 400;
+      font-size: 14px;
+
+      .title {
+        font-weight: 500;
+        font-size: 14px;
+        color: #95adab;
+        margin-bottom: 20px;
+      }
+      .item {
+        &.phone {
+          a {
+            display: flex;
+            align-items: center;
+          }
+          span {
+            margin-right: 10px;
+          }
+        }
+        margin-bottom: 16px;
+        a {
+          text-decoration: none;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 36px 0;
+    .left {
+      font-weight: 300;
+      font-size: 12px;
+      color: #95adab;
+    }
+    .center {
+      .list {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        .item {
+          margin-right: 50px;
+          svg {
+            path {
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      a {
+        text-decoration: none;
+        &:hover {
+          color: #95adab;
+        }
+      }
+      span {
+        margin-left: 8px;
+      }
+      font-weight: 400;
+      font-size: 12px;
+      color: #95adab;
+      text-align: right;
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .footer {
+    height: auto;
+    .menu {
+      padding: 32px 0;
+      text-align: center;
+      .socialList {
+        justify-content: center;
+      }
+      .list .item.phone a {
+        justify-content: center;
+      }
+    }
+    .copyright {
+      padding: 32px 0;
+      .left {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .center {
+        margin-bottom: 25px;
+      }
+      .right {
+        text-align: center;
+      }
+    }
+  }
+}

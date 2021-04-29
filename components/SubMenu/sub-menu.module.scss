@@ -1,0 +1,44 @@
+.categoryMenu {
+  background-color: #f3f7f7;
+  color: #00554c;
+  font-weight: normal;
+  font-size: 14px;
+  position: relative;
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .item {
+      cursor: pointer;
+      &:hover {
+        background: #fff;
+        color: #009081;
+        .subCategories {
+          display: flex;
+        }
+      }
+      .link {
+        text-decoration: none;
+        &:hover {
+          color: #009081;
+        }
+        padding: 16px;
+        display: block;
+      }
+      &.sale {
+        .link {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .categoryMenu {
+    display: none;
+  }
+}

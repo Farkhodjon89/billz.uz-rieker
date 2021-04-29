@@ -1,0 +1,24 @@
+.type {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 15px;
+  a {
+    line-height: 28px;
+    text-decoration: none;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+.menuType {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+  }
+}

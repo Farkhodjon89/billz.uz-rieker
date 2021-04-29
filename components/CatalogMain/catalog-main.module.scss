@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+}
+.right {
+  width: 75%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  .activFilter {
+    display: flex;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 12px;
+        button {
+          background: #fff;
+          border: 1px solid #dbe2e2;
+          font-weight: 400;
+          font-size: 13px;
+          padding: 0 0 0 12px;
+          display: flex;
+          align-items: center;
+          &:hover {
+            background: #f3f7f7;
+            color: #00554c;
+            border-color: #00554c;
+          }
+          &::after {
+            content: "";
+            background: url("/XCircle2.svg");
+            width: 32px;
+            height: 32px;
+            display: block;
+          }
+        }
+      }
+    }
+    .resetFilter {
+      font-weight: 500;
+      font-size: 16px;
+      color: #00554c;
+      background: #fff;
+      border: 0;
+    }
+  }
+  .sort {
+    button {
+      font-weight: 500;
+      font-size: 16px;
+      color: #00554c;
+      background: #fff;
+      border: 0;
+      display: flex;
+      &::before {
+        content: "";
+        background: url("/SortAscending.svg");
+        width: 24px;
+        height: 24px;
+        display: block;
+        margin-right: 8px;
+      }
+    }
+  }
+}

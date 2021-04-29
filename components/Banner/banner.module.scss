@@ -1,0 +1,84 @@
+.noMargin {
+  margin-bottom: 9px !important;
+}
+.banner {
+  height: 364px;
+  position: relative;
+  margin-bottom: 64px;
+  .bannerImg {
+    height: 100%;
+    padding: 26px;
+    background-size: cover;
+  }
+
+  .bannerContnet {
+    font-size: 16px;
+    color: #00554c;
+    .titleStyleOne {
+      font-weight: bold;
+      font-size: 28px;
+      font-family: "Roboto Condensed";
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      margin-top: 120px;
+    }
+    .subTitleStyleOne {
+      font-weight: normal;
+      margin-bottom: 70px;
+    }
+    .buttonStyleOne {
+      padding: 16px 24px;
+      background: #fff;
+      font-weight: 600;
+      position: absolute;
+      bottom: 26px;
+      &:hover {
+        text-decoration: none;
+        color: #00554c;
+      }
+    }
+    .titleStyleTwo {
+      margin-top: 120px;
+      font-weight: bold;
+      font-size: 28px;
+      font-family: "Roboto Condensed";
+      text-transform: uppercase;
+    }
+    .titleStyleThree {
+      position: absolute;
+      top: 26px;
+      left: 26px;
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-family: "Roboto Condensed";
+      color: #fff;
+    }
+
+    .buttonStyleThree {
+      position: absolute;
+      bottom: 28px;
+      left: 26px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .banner {
+    .bannerContnet {
+      .titleStyleOne,
+      .titleStyleTwo {
+        font-size: 20px;
+      }
+      .titleStyleThree {
+        font-size: 18px;
+      }
+    }
+  }
+}
