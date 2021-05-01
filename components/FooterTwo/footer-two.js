@@ -14,7 +14,8 @@ const FooterTwo = () => (
                 <div
                   className={`col-lg-3 col-xl-3 col-md-4 col-sm-12 ${s.left}`}
                 >
-                  Все права защищены 2021
+                  2020 © Rieker-shop.uz — интернет магазин <br /> немецкой обуви и
+                  аксессуаров. Все права защищены.
                 </div>
                 <div
                   className={`col-lg-6 col-xl-6 col-md-4  col-sm-12 ${s.center}`}

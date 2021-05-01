@@ -256,14 +256,14 @@ const ProductCard = ({
                       ? () => deleteFromWishlist(product)
                       : () => addToWishlist(product)
                   }
-                  dangerouslySetInnerHTML={{ __html: icons.wishlist }}
+                  dangerouslySetInnerHTML={{ __html: icons.heart }}
                 />
               </div>
               <button
                 className={s.stockStatus}
                 onClick={() => setStockStatus(!stockStatus)}
               >
-                Наличие в магазинах
+                
               </button>
 
               {stockStatus ? (

@@ -20,9 +20,9 @@ const Accordion = ({ title, icon, children, noMargin, active }) => {
           {title}
         </div>
         {expand ? (
-          <span dangerouslySetInnerHTML={{ __html: icons.minus }} />
-        ) : (
           <span dangerouslySetInnerHTML={{ __html: icons.plus }} />
+        ) : (
+          <span dangerouslySetInnerHTML={{ __html: icons.minus }} />
         )}
       </div>
       {expand && <div className={s.content}>{children}</div>}

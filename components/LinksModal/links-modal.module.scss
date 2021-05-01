@@ -1,7 +1,7 @@
 .subCategoryMenu {
   padding: 36px 0;
   display: none;
-  color: #00554c;
+  color: #1C272F;
   position: absolute;
   z-index: 9;
   width: 100%;
@@ -18,7 +18,7 @@
       li {
         padding: 0;
         &:last-of-type {
-          color: #00554c;
+          color: #1C272F;
         }
       }
     }
@@ -40,14 +40,14 @@
       padding: 0;
       margin-bottom: 16px;
       &:last-of-type {
-        color: #00554c;
+        color:#1C272F;
       }
       a {
         display: flex;
         justify-content: space-between;
         text-decoration: none;
         &:hover {
-          color: #009081;
+          color: #1C272F;
         }
       }
     }

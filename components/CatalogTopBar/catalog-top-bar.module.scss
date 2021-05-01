@@ -14,23 +14,23 @@
         margin-right: 12px;
         background: #fff;
         border: 1px solid #dbe2e2;
+
         &:hover {
-          color: #00554c;
-          border-color: #00554c;
+          border-color: #fa7e26;
         }
         button {
           display: flex;
           align-items: center;
           text-decoration: none;
           padding-left: 10px;
-          color: #4c6d6a;
+          color: #575f6a;
           font-weight: 400;
           font-size: 13px;
           background: #fff;
           border: 0;
           &:hover {
-            background: #f3f7f7;
-            color: #00554c;
+            background: #fff;
+            color: #fa7e26;
           }
         }
       }
@@ -38,7 +38,8 @@
     .resetFilter {
       font-weight: 500;
       font-size: 16px;
-      color: #00554c;
+      color: #090e15;
+
       background: #fff;
       border: 0;
     }

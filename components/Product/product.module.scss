@@ -30,7 +30,7 @@
     .addToWishlist {
       svg {
         path {
-          stroke: #00554c;
+          stroke: #090E15;
         }
       }
     }
@@ -67,9 +67,9 @@
     border: 0;
     &.active {
       svg {
-        fill: #00554c;
+        fill: #090E15;
         path {
-          stroke: #00554c;
+          stroke: #090E15;
         }
       }
     }
@@ -114,7 +114,7 @@
       }
     }
     .active {
-      background: #00554c;
+      background: #090E15;
       width: 36px;
       height: 36px;
       padding: 0;
@@ -123,7 +123,7 @@
     }
 
     .submit {
-      background: #00554c;
+      background: #090E15;
       color: #fff;
       border: 0;
       width: 100%;
@@ -131,7 +131,7 @@
       font-weight: 600;
       font-size: 16px;
       &:hover {
-        background: #009181;
+        background: #090E15;
       }
     }
   }
@@ -151,7 +151,7 @@
   .price {
     font-weight: 500;
     font-size: 16px;
-    color: #051f1c;
+    color: #090E15;
   }
   .sale {
     font-weight: 500;

@@ -191,7 +191,7 @@
   padding: 16px 0;
   width: 100%;
   text-align: center;
-  background: #00554c;
+  background: #FA7E26;
   border: 0;
   margin-bottom: 9px;
 }
@@ -202,23 +202,23 @@
 .OneClick {
   font-weight: 600;
   font-size: 16px;
-  color: #00554c;
+  color: #090E15;
   padding: 16px 0;
   text-align: center;
   background: #fff;
-  border: 1px solid #00554c;
+  border: 1px solid #8C9896;
   width: 100%;
   margin-right: 9px;
 }
 .addToWishlist {
   padding: 15px;
   background: #fff;
-  border: 1px solid #00554c;
+  border: 1px solid #8C9896;
   &.active {
     svg {
-      fill: #00554c;
+      fill: #E40134;
       path {
-        stroke: #00554c;
+        stroke: #E40134;
       }
     }
   }
@@ -239,7 +239,7 @@
   font-weight: 400;
   font-size: 15px;
   padding: 20px;
-  background: #f3f7f7;
+  background: #FEFAFB;
   margin-bottom: 20px;
 }
 

@@ -1,6 +1,6 @@
 .categoryMenu {
-  background-color: #f3f7f7;
-  color: #00554c;
+  background-color: #FFF9F5;
+  color: #090E15;
   font-weight: normal;
   font-size: 14px;
   position: relative;
@@ -14,8 +14,8 @@
     .item {
       cursor: pointer;
       &:hover {
-        background: #fff;
-        color: #009081;
+        background: #FFF9F5;
+        color: #090E15;
         .subCategories {
           display: flex;
         }
@@ -23,7 +23,7 @@
       .link {
         text-decoration: none;
         &:hover {
-          color: #009081;
+          color: #090E15;
         }
         padding: 16px;
         display: block;

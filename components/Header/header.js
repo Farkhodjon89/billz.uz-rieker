@@ -346,7 +346,7 @@ const Header = ({
                           : null
                       }
                     >
-                      <Link href="/category/muzhskoj">
+                      <Link href="/catalog/muzhskoj">
                         <a>Мужчины</a>
                       </Link>
                     </li>
@@ -359,7 +359,7 @@ const Header = ({
                           : null
                       }
                     >
-                      <Link href="/category/zhenskij">
+                      <Link href="/catalog/zhenskij">
                         <a>Женщины</a>
                       </Link>
                     </li>
@@ -372,7 +372,7 @@ const Header = ({
                           : null
                       }
                     >
-                      <Link href="/category/malchik">
+                      <Link href="/catalog/malchik">
                         <a>Юнисекс</a>
                       </Link>
                     </li>
@@ -385,7 +385,7 @@ const Header = ({
                           : null
                       }
                     >
-                      <Link href="/category/devochka">
+                      <Link href="/catalog/devochka">
                         <a>Последняя пара</a>
                       </Link>
                     </li>

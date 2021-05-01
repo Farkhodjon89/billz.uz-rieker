@@ -65,7 +65,7 @@
   justify-content: space-between;
   a {
     &:hover {
-      color: #fff;
+      color: #FFF9F5;
       text-decoration: none;
     }
     display: flex;
@@ -92,7 +92,8 @@
 //   }
 // }
 .active {
-  background: #f3f7f7;
+  background: #FFF9F5;
+  color: #e40134;
 }
 .topRight {
   display: flex;

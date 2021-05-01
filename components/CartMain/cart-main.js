@@ -164,7 +164,7 @@ const CartMain = ({
                         }`}
                       >
                         <div
-                          dangerouslySetInnerHTML={{ __html: icons.wishlist }}
+                          dangerouslySetInnerHTML={{ __html: icons.heart }}
                         />
                         <button
                           onClick={

@@ -4,7 +4,7 @@
 .rightInner {
   border-radius: 2px;
   padding: 26px;
-  background: #f3f7f7;
+  background: #FFF9F5;
   margin-bottom: 36px;
   a {
     display: flex;
@@ -77,7 +77,7 @@
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 20px;
-  color: #00554c;
+  color: #1C272F;
   span {
     color: #95adab;
   }
@@ -87,12 +87,12 @@
   width: 100%;
   padding: 16px 0;
   border: 0;
-  background: #00554c;
+  background: #FA7E26;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
   &:hover {
-    background: #009181;
+    background: #FA7E26;
   }
 }
 .inputs {
@@ -114,18 +114,21 @@
   textarea {
     width: 100%;
     height: 52px;
-    border: 1px solid #95adab;
+    border: 1px solid #8C9896;
     outline: #00554c auto 0;
     border-radius: 0;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 15px;
     padding: 0 12px;
     background: transparent;
     color: #4c6d6a;
     font-family: "Commissioner";
     &::placeholder {
-      color: #4c6d6a;
+      color: #4E5B5A;
       font-family: "Commissioner";
+    }
+    &:hover{
+      border: 1px solid #1C272F;
     }
   }
   input {
@@ -179,7 +182,7 @@
     .checker {
       width: 18px;
       height: 18px;
-      border: 2px solid #4c6d6a;
+      border: 2px solid #FA7E26;
       border-radius: 50%;
       position: relative;
       margin-right: 10px;
@@ -197,12 +200,12 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background: #4c6d6a;
+        background: #FA7E26;
         border-radius: 50%;
       }
       background: #f3f7f7;
-      border: 1px solid #00554c !important;
-      color: #00554c;
+      border: 1px solid #FA7E26 !important;
+      color: #FA7E26;
     }
   }
 }

@@ -38,7 +38,7 @@
     border: 0;
     font-weight: 500;
     font-size: 16px;
-    color: #00554c;
+    color: #090E15;
   }
   img {
     width: 20px;
@@ -160,21 +160,21 @@
   text-decoration: underline;
   margin-right: 26px;
   &:hover {
-    color: #009081;
+    color: #FA7E26;
     button {
-      color: #009081;
+      color: #FA7E26;
     }
     svg {
       path {
-        stroke: #009081;
+        stroke: #FA7E26;
       }
     }
   }
   &.active {
     svg {
-      fill: #00554c;
+      fill: #FA7E26;
       path {
-        stroke: #00554c;
+        stroke: #FA7E26;
       }
     }
   }
@@ -193,14 +193,14 @@
   align-items: center;
   text-decoration: underline;
   &:hover {
-    color: #009081;
+    color: #FA7E26;
     button {
-      color: #009081;
+      color: #FA7E26;
     }
     svg {
-      fill: #009081;
+      fill: #FA7E26;
       path {
-        stroke: #009081;
+        stroke: #FA7E26;
       }
     }
   }
@@ -216,7 +216,7 @@
 .rightInner {
   border-radius: 2px;
   padding: 26px;
-  background: #f3f7f7;
+  background: #FFF9F5;
   margin-bottom: 36px;
 }
 
@@ -243,9 +243,9 @@
     padding: 16px 0;
     margin-top: 32px;
     text-decoration: none;
-    background: #00554c;
+    background: #FA7E26;
     &:hover {
-      background: #009181;
+      background: #FA7E26;
     }
   }
 }
@@ -269,7 +269,7 @@
 
 .promoCode {
   padding: 26px;
-  background: #f3f7f7;
+  background: #FFF9F5;
   margin-bottom: 30px;
   .title {
     margin-bottom: 26px;
@@ -281,15 +281,15 @@
     button {
       font-weight: 600;
       font-size: 16px;
-      color: #00554c;
-      border: 1px solid #00554c;
+      color: #090E15;
+      border: 1px solid #8C9896;
       background: #fff;
       width: 100%;
       padding: 16px 0;
       &:hover {
         color: #fff;
-        border-color: #009181;
-        background: #009181;
+        border-color: #FA7E26;
+        background: #FA7E26;
       }
     }
   }

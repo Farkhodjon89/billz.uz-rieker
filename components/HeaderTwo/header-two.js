@@ -10,7 +10,7 @@ const HeaderTwo = ({ orderPage }) => (
           <a>
             <span
               className={s.logo}
-              dangerouslySetInnerHTML={{ __html: icons.logo }}
+              dangerouslySetInnerHTML={{ __html: icons.logoTwo }}
             />
           </a>
         </Link>
