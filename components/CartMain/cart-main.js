@@ -241,10 +241,13 @@ const CartMain = ({
           <OfferTwo />
         </div>
       </div>
+
       {/* <SectionTitle title="Возможно вам понравится" />
-      { windowWidth >= 1023 ? 
-      <ProductsList products={products} related={true}/>
-      : <ProductSlider products={products} /> } */}
+      {windowWidth >= 1023 ? (
+        <ProductsList products={products} related={true} />
+      ) : (
+        <ProductSlider products={products} />
+      )} */}
     </div>
   ) : (
     <div className={s.emptyCart}>

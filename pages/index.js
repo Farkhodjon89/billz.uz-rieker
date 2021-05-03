@@ -10,7 +10,8 @@ import CategoriesBlock from "../components/CategoriesBlock";
 import client from "../apollo/apollo-client";
 import { HeadData } from "../components/Head";
 import Marquee from "../components/Marquee";
-import MainSlider from "./../components/MainSlider";
+// import MainSlider from "./../components/MainSlider";
+import HomeBanner from '../components/HomeBanner';
 import ProductSlider from "../components/ProductSlider";
 
 const Index = ({ categories, sliderData, categoriesblock, newProduct }) => {
@@ -18,7 +19,8 @@ const Index = ({ categories, sliderData, categoriesblock, newProduct }) => {
     <>
       <HeadData />
       <Layout categories={categories}>
-        <MainSlider SliderData={sliderData} />
+        {/* <MainSlider SliderData={sliderData} /> */}
+        <HomeBanner />
         <div className="container">
           <SectionTitle title="популярные Категории" />
           <CategoriesBlock categories={categoriesblock} />

@@ -7,22 +7,22 @@
       padding: 0;
       .item {
         &.active {
-          border-color: #027769;
-          background: #f8f9f9;
+          border-color: #FA7E26;
+          background: #FFF9F5;
           .phone svg,
           svg {
             path {
-              stroke: #027769;
+              stroke: #FA7E26;
             }
           }
           .title {
-            color: #027769;
+            color: #FA7E26;
           }
         }
 
-        color: #1c272f;
+        color: #1C272F;
         margin-bottom: 9px;
-        border: 1px solid #8c9896;
+        border: 1px solid #8C9896;
         padding: 32px 26px;
         //margin-bottom: 30px;
         .title {

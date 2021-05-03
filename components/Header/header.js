@@ -283,7 +283,10 @@ const Header = ({
                       </a>
                     </Link>
                   </div>
-                  <div>
+                  
+                </div>
+                <div className={s.topCenter}>
+                <div>
                     <Link href="/">
                       <a>
                         <span
@@ -293,12 +296,7 @@ const Header = ({
                       </a>
                     </Link>
                   </div>
-                </div>
-                {/* <div className={s.topCenter}>
-                   <Link href="/">
-                    <a>Две по цене одной. Используй промо код: FCN2021</a>
-                  </Link> 
-                </div>  */}
+                </div> 
               </div>
             </div>
           </section>
@@ -426,7 +424,7 @@ const Header = ({
                       />
                     </li>
                     <li className={s.user}>
-                    <Link href='/'>
+                    <Link href='/user'>
                       <a className={s.headerUser}>
                         <span dangerouslySetInnerHTML={{__html: icons.user }}  /> 
                         <span className={s.title}>Войти</span>

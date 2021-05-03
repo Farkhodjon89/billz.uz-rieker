@@ -7,14 +7,15 @@
   font-weight: 400;
 }
 .topInner {
-  display: grid;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 36px;
 }
 .searchLoading {
   margin-top: 40px;
   font-size: 26px;
-  color: #00554c;
+  color: #e40134;
   text-align: center;
 }
 .mobileSearch {
@@ -27,7 +28,7 @@
 .searchEmpty {
   margin-top: 40px;
   font-size: 26px;
-  color: #00554c;
+  color: #e40134;
   text-align: center;
 }
 .headerCart {
@@ -65,7 +66,7 @@
   justify-content: space-between;
   a {
     &:hover {
-      color: #FFF9F5;
+      color: #fff9f5;
       text-decoration: none;
     }
     display: flex;
@@ -79,20 +80,20 @@
     }
   }
 }
-// .topCenter {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   // width: 50%;
-//   a {
-//     &:hover {
-//       color: #fff;
-//       text-decoration: none;
-//     }
-//   }
-// }
+.topCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // width: 50%;
+  a {
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
 .active {
-  background: #FFF9F5;
+  background: #fff9f5;
   color: #e40134;
 }
 .topRight {
@@ -255,7 +256,7 @@
         align-items: center;
         margin-right: 30px;
         span {
-          color:#090e15;
+          color: #090e15;
         }
         &:hover {
           color: #090e15;
@@ -318,16 +319,19 @@
 }
 
 @media (max-width: 1040px) {
-  .topLeft {
-    width: 100%;
-    justify-content: space-between;
-  }
-  .topCenter {
-    display: none;
-  }
+ 
+  
 }
 
 @media (max-width: 770px) {
+  .topLeft {
+    display: none;
+  }
+  .topCenter{
+    width: 100%;
+    justify-content: center;
+  }
+  
   .botLeft {
     ul {
       display: none;

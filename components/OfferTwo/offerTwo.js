@@ -9,12 +9,17 @@ const OfferTwo = () => (
         Осуществляется по Ташкенту при заказе на 500,000 сум и выше
       </div>
     </Accordion>
-    <Accordion title="Оригинальная продукция" icon={icons.shieldCheck} noMargin>
+    <Accordion title="Бесплатная примерка" icon={icons.arrowsInSimple} noMargin>
+      <div className={s.content}>
+        Осуществляется по Ташкенту при заказе на 500,000 сум и выше
+      </div>
+    </Accordion>
+    <Accordion title="Возврат товара" icon={icons.arrowsClockwise} noMargin>
       <div className={s.content}>
         Гарантия подлинности всех брендов, представленных в магазине
       </div>
     </Accordion>
-    <Accordion title="Возврат и обмен" icon={icons.arrowsClockwise} noMargin>
+    <Accordion title="90 дней гарантии" icon={icons.shieldCheck} noMargin>
       <div className={s.content}>
         Обменять или вернуть товары можно в течении 10 дней при наличии чека и
         товарного вида
